@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:padding="16dp"
+    android:background="@color/display_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Putri Cellyenda"
+        android:textStyle="bold"
+        android:textColor="@color/brown"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/nim"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/cute"
+        android:text="0102522029"
+        android:textStyle="bold"
+        android:textColor="@color/brown"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/cute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/move"
+        android:text="@string/cute"
+        android:textStyle="bold"
+        android:textColor="@color/brown"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/move"
+        android:onClick="move"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/action_text"
+        android:text="@string/button_name"
+        android:textColor="@color/primary_text" />
+
+</RelativeLayout>

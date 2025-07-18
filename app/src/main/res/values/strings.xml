@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Catatan Putri</string>
+    <string name="note_name">Catatan</string>
+    <string name="name">Putri Cellyenda</string>
+    <string name="nim">0102522029</string>
+    <string name="button_name">Gunakan Catatan</string>
+    <string name="cute">⋆ ˚｡⋆୨♡୧⋆ ˚｡⋆</string>
+    <string name="main_note_text">Tambahkan catatan baru</string>
+    <string name="sub_note_text">Apa yang kamu ingin catat hari ini?</string>
+</resources>
